@@ -44,7 +44,7 @@ pagina_seleccionada = st.sidebar.selectbox('Selecciona una página', paginas)
 if pagina_seleccionada == 'Inicio':
 
     # La función st.markdown permite centrar y agrandar la letra del título de la web en Streamlit.
-    st.markdown("<h1 style='text-align: center;'>¡Hola mundo! Esta es mi bitácora en la programación</h1>", unsafe_allow_html=True)
+    st.markdown("<h1 style='text-align: center;'>¡Hola mundo! Esta es mi bitácora en la programación 💻📝</h1>", unsafe_allow_html=True)
 
     # <h1 style='text-align: center;'>Nombre de tu blog</h1>: Esto es una cadena de código HTML. 
     # La etiqueta <h1> se utiliza para el encabezado principal de una página web, y 
@@ -68,7 +68,7 @@ if pagina_seleccionada == 'Inicio':
     # Las columnas creadas se asignan a las variables col1 y col2.
 
     # En la primera columna colocamos la imagen de perfil
-    col1.image("foto_perfil.jpeg", caption='En construcción... como mi código', width=300)
+    col1.image("foto_perfil.jpeg", caption='En construcción... como mi código 🛠️', width=300)
 
     # col1.image("ellie.png", caption='Ellie', width=300): Esta línea está colocando una imagen en la primera columna (col1). 
     # La función image toma como primer argumento el nombre del archivo de la imagen que se desea mostrar. 
